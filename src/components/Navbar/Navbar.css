@@ -1,0 +1,11 @@
+.icon{
+    height: 30px;
+    width: 25px;
+    margin-bottom: 5px;
+    
+}
+.active {
+    background-color: grey;  /* Define the background color for active links */
+  }
+  
+  

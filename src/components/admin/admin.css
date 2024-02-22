@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.upload-box{
+    font-size: 16px;
+    border-radius: 7px;
+    width: 250px;
+    outline: none;
+    color: #000d36;
+    /* margin-top: "18px"; */
+    background: rgba(149, 149, 152, 0.459);
+    font-family: "Poppins";
+    font-size: "33px";
+    font-weight: 200;
+    cursor: pointer;
+    padding: 4px;
+   }
+
+   ::-webkit-file-upload-button{
+    color: #fff;
+    background: #000d36;
+    padding: 8px;
+    margin: 0px 15px 0px 0px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    outline: none;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+.dropdown-input-color-setting .MuiSelect-icon {
+    color: white !important;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .pagination a {
+    padding: 10px;
+    border-radius: 5px;
+    /* border: 1px solid #292929; */
+    color: #1976d2;
+  }
+  
+  .pagination__link {
+    font-weight: bold;
+  }
+  
+  .pagination__link--active a {
+    color: #fff;
+    background: #1976d2;
+  }
+  
+  .pagination__link--disabled a {
+    color: rgb(198, 197, 202);
+    /* border: 1px solid #292929; */
+  }
+  

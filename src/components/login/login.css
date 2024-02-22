@@ -1,0 +1,107 @@
+
+::placeholder{
+    color: #575454;
+}
+.login-container{
+   display: flex;
+ 
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-image: url("https://t4.ftcdn.net/jpg/04/60/71/01/360_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg");
+}
+.login-heading{
+    color: black;
+    font-family: "serif";
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.login-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+   
+    background: white;
+   height: 464px;
+   width: 500px;
+   padding: 20px 40px 22px 40px;
+}
+.login-image{
+    height: 506px;
+    width: 500px;
+}
+.signUpBtn{
+    background-color:#220655;
+    border:0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-family: "Roboto";
+    width: 400px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+   
+}
+.user-input{
+    width: 400px !important;
+}
+.signUpBtn:hover{
+    background-color: #2b0e60;
+}
+.error{
+    color: rgb(228, 15, 15);
+    font-size: 16px;
+    margin-top: 0px !important;
+   
+}
+.welcome-heading{
+    font-weight: 200px;
+    font-family:"emoji";
+}
+.ecom-heading{
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+}
+.login-btn{
+    width:400px !important;
+}
+.login-image-container{
+    height: 506px;
+}
+@media screen and (max-width:600px) {
+    .login-container{
+        flex-direction: column;
+       
+    }
+    .login-card{
+    height: 400px;
+    width: 250px;
+    padding:10px;
+    }
+    .login-image{
+        height: 250px;
+        width: 250px;
+    }
+    .user-input{
+        width: 200px !important;
+    }
+    .login-btn{
+        width:200px !important ;
+    }
+    .ecom-heading{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .welcome-heading{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .login-heading{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}
